@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+  <h1>Working</h1>
+
+
+
+
+  <div style="margin-left:45%; margin-top:10%;">
+    {% csrf_token %}
+    <input id="search" type="searh" placeholder="Search">
+  </div>
+
+
+  <div style="margin-left:45%; margin-top:2%;">
+    <nav>
+      <ul id="search_results">
+
+      </ul>
+    </nav>
+  </div>
+
+{% endblock %}

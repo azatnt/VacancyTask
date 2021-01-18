@@ -1,0 +1,9 @@
+{% if cars.count > 0 %}
+
+{% for cars in cars %}
+  <li>
+    <a href="#">{{cars.name}}</a>
+  </li>
+{% endfor %}
+
+{% endif %}
